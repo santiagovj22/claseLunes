@@ -24,7 +24,7 @@ app.use(express.json());
 
 //routes
 app.use('/', require('./routes/index'));
-app.use('/', require('./routes/products'));
+app.use('/', require('./routes/login'));
 app.use('/', require('./routes/user'));
 
 //static files
